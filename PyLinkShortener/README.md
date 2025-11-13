@@ -1,68 +1,71 @@
 # PyLinkShortener 🔗
 
-**PyLinkShortener**, Python ile yapılmış modern bir GUI tabanlı URL kısaltıcıdır.  
-Uzun linkleri saniyeler içinde kısaltır ve kısaltılan linkler uygulama içinde kaydedilir.  
-Tıklayınca orijinal URL tarayıcıda açılır.
+**PyLinkShortener**, Python ve CustomTkinter ile yapılmış modern bir masaüstü URL kısaltıcı uygulamasıdır. Uzun linkleri saniyeler içinde kısaltır, panoya kopyalamanızı sağlar ve tüm kısaltma geçmişinizi yerel olarak kaydeder.
+
+Geçmiş listesindeki linklere tıklayarak orijinal URL'yi tarayıcınızda açabilirsiniz.
+
+## 📸 Ekran Görüntüleri
+
+| Ana Arayüz | Kısaltma Başarılı | Geçersiz URL Hatası |
+| :---: | :---: | :---: |
+| ![Ana Arayüz](Ekran%20Resmi%202025-11-14%2001.32.48.jpg) | ![Başarılı Kısaltma](Ekran%20Resmi%202025-11-14%2001.33.11.jpg) | ![Hata Mesajı](Ekran%20Resmi%202025-11-14%2001.33.40.jpg) |
+
+*(Not: Yukarıdaki görsellerin çalışması için, `Ekran Resmi....jpg` dosyalarının `README.md` dosyasıyla aynı dizinde olduğundan veya yolun doğru şekilde güncellendiğinden emin ol.)*
 
 ---
 
-## 🎯 Özellikler
-- Uzun URL’leri hızlıca kısaltır
-- Kısaltılmış linkleri panoya kopyala
-- Tıklanabilir geçmiş listesi
-- Modern GUI arayüzü (CustomTkinter)
-- JSON tabanlı kayıt sistemi
-- Masaüstünde sorunsuz çalışır
+## 🎯 Temel Özellikler
+
+* **Hızlı Kısaltma:** Uzun URL'leri anında kısaltır.
+* **Panoya Kopyala:** Oluşturulan kısa linki tek tıkla panoya kopyalama butonu.
+* **Tıklanabilir Geçmiş:** Tüm kısaltma geçmişi (kısa link -> orijinal link) tıklanabilir bir listede tutulur.
+* **Kalıcı Kayıt:** Uygulama kapansa bile geçmiş linkler `JSON` dosyasında saklanır.
+* **Modern Arayüz:** `CustomTkinter` kütüphanesi ile modern ve şık bir görünüm.
+* **URL Doğrulama:** Geçersiz veya boş girişleri kontrol eder ve kullanıcıyı uyarır.
 
 ---
 
-## 🛠️ Kurulum
+## 🖥️ Kullanılan Teknolojiler
 
-1. Python 3.12 kurulu olmalı
-2. Sanal ortam oluştur ve aktif et:
+* **Python 3.12**
+* **CustomTkinter:** Modern GUI arayüzü için.
+* **Pyperclip:** Panoya kopyalama işlemleri için.
+* **Validators:** URL formatını doğrulamak için.
+* **JSON:** Kısaltma geçmişini yerel olarak saklamak için.
 
-'''bash
-python3.12 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+---
+
+## 🛠️ Kurulum ve Kullanım
+
+### 1. Gereksinimler
+* Python 3.10 veya daha yeni bir sürüm.
+
+### 2. Kurulum
+1.  Bu repoyu klonlayın veya ZIP olarak indirin:
+    ```bash
+    git clone [SENİN-GITHUB-REPO-URL'N]
+    cd PyLinkShortener
+    ```
+
+2.  Bir sanal ortam (virtual environment) oluşturun ve aktifleştirin:
+
+    *Windows:*
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+    *macOS/Linux:*
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  Gerekli paketleri `requirements.txt` dosyasından yükleyin:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### 3. Çalıştırma
+Uygulamayı başlatmak için `main.py` dosyasını çalıştırın:
+```bash
 python main.py
-'''
-
-PyLinkShortener/
-├── src/
-│   ├── core/          # URL kısaltma ve JSON kaydı
-│   └── ui/            # GUI
-├── assets/            # Logo, ikonlar
-├── docs/README.md     # Bu dosya
-├── requirements.txt
-└── main.py            # Uygulama başlatıcı
-
-##🖥️ Teknolojiler
-*Python 3.12
-*CustomTkinter
-*Pyperclip
-*Validators
-*JSON tabanlı veri kaydı
-
-##📸 Ekran Görüntüsü
-
-
-
-
-##💡 Kullanım
-1.Uzun URL’yi giriş kutusuna yaz
-2.“Kısalt” butonuna bas
-3.Kısaltılmış link gösterilecek ve tıklanabilir olacak
-4.“Kopyala” butonu ile linki panoya alabilirsir
-5.Aşağıdaki geçmiş kutusunda tüm kısaltılmış linkleri görebilir ve tıklayarak açabilirsin
-
-
-##📂 Notlar
-- assets/logo.png → Logo ve ikonlar için
-- requirements.txt → Kullanılan tüm paketler
-- Geçmiş linkler JSON dosyasında saklanır
-- GUI yalnızca masaüstü için, web’e taşımak için Flask/FastAPI gerek
-
-
-
-
