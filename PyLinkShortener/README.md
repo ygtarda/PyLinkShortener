@@ -8,7 +8,7 @@ Geçmiş listesindeki linklere tıklayarak orijinal URL'yi tarayıcınızda aça
 
 | Ana Arayüz | Kısaltma Başarılı | Geçersiz URL Hatası |
 | :---: | :---: | :---: |
-| ![Ana Arayüz](Ekran%20Resmi%202025-11-14%2001.32.48.jpg) | ![Başarılı Kısaltma](Ekran%20Resmi%202025-11-14%2001.33.11.jpg) | ![Hata Mesajı](Ekran%20Resmi%202025-11-14%2001.33.40.jpg) |
+| ![Ana Arayüz](Ekran Resmi 2025-11-14 01.32.48) | ![Başarılı Kısaltma](Ekran%20Resmi%202025-11-14%2001.33.11.jpg) | ![Hata Mesajı](Ekran%20Resmi%202025-11-14%2001.33.40.jpg) |
 
 *(Not: Yukarıdaki görsellerin çalışması için, `Ekran Resmi....jpg` dosyalarının `README.md` dosyasıyla aynı dizinde olduğundan veya yolun doğru şekilde güncellendiğinden emin ol.)*
 
@@ -69,3 +69,4 @@ Geçmiş listesindeki linklere tıklayarak orijinal URL'yi tarayıcınızda aça
 Uygulamayı başlatmak için `main.py` dosyasını çalıştırın:
 ```bash
 python main.py
+
