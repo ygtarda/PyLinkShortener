@@ -8,7 +8,7 @@ Geçmiş listesindeki linklere tıklayarak orijinal URL'yi tarayıcınızda aça
 
 | Ana Arayüz | Kısaltma Başarılı | Geçersiz URL Hatası |
 | :---: | :---: | :---: |
-| ![Ana Arayüz](1.jpg) | ![Başarılı Kısaltma](2.jpg) | ![Hata Mesajı](3.jpg) |
+| ![Ana Arayüz](1.png) | ![Başarılı Kısaltma](2.jpg) | ![Hata Mesajı](3.jpg) |
 
 
 ---
@@ -68,4 +68,5 @@ Geçmiş listesindeki linklere tıklayarak orijinal URL'yi tarayıcınızda aça
 Uygulamayı başlatmak için `main.py` dosyasını çalıştırın:
 ```bash
 python main.py
+
 
