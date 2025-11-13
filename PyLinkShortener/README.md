@@ -1,4 +1,4 @@
-###PyLinkShortener 🔗
+##PyLinkShortener 🔗
 
 **PyLinkShortener**, Python ve CustomTkinter ile yapılmış modern bir masaüstü URL kısaltıcı uygulamasıdır. Uzun linkleri saniyeler içinde kısaltır, panoya kopyalamanızı sağlar ve tüm kısaltma geçmişinizi yerel olarak kaydeder.
 
@@ -68,6 +68,7 @@ Geçmiş listesindeki linklere tıklayarak orijinal URL'yi tarayıcınızda aça
 Uygulamayı başlatmak için `main.py` dosyasını çalıştırın:
 ```bash
 python main.py
+
 
 
 
