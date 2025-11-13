@@ -53,7 +53,7 @@ PyLinkShortener/
 1.Uzun URL’yi giriş kutusuna yaz
 2.“Kısalt” butonuna bas
 3.Kısaltılmış link gösterilecek ve tıklanabilir olacak
-4.“Kopyala” butonu ile linki panoya alabilirsin
+4.“Kopyala” butonu ile linki panoya alabilirsir
 5.Aşağıdaki geçmiş kutusunda tüm kısaltılmış linkleri görebilir ve tıklayarak açabilirsin
 
 
@@ -62,6 +62,7 @@ PyLinkShortener/
 - requirements.txt → Kullanılan tüm paketler
 - Geçmiş linkler JSON dosyasında saklanır
 - GUI yalnızca masaüstü için, web’e taşımak için Flask/FastAPI gerek
+
 
 
 
